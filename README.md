@@ -22,11 +22,6 @@ Once you've downloaded and extracted the ZIP file, open the project in your pref
 
 ## Screenshots
 
-
-<div style="width: 100%; max-width: 600px; margin: auto;">
-  <img src="./main.PNG" alt="Main Page Screenshot" style="width: 100%; height: auto; display: block;">
-</div>
-
 <div style="width: 100%; max-width: 600px; margin: auto;">
   <img src="./preview.PNG" alt="About Me Page Screenshot" style="width: 100%; height: auto; display: block;">
 </div>
