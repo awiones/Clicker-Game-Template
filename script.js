@@ -1,3 +1,14 @@
+/**
+ * **************************************************************************
+ * Author: Awiones
+ * Project: Clicker Game Template
+ * Description: JavaScript code for clicker game with leaderboard and sound effects
+ * Watermark: This code is a proprietary creation by Awiones.
+ * Give me credit by not remove this.
+ * **************************************************************************
+ */
+
+
 let clickCount = 0;
 let userLocation = null;
 const clickButton = document.getElementById('clickButton');
