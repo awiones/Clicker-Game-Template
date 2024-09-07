@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="click-area" id="clickButton">
+            <img src="doge.png" alt="Click Me!">
+            <div class="click-effect" id="clickEffect"></div>
+        </div>
+        <div class="leaderboard">
+            <h2>Leaderboard</h2>
+            <div class="leaderboard-box">
+                <ul id="leaderboardList"></ul>
+            </div>
+        </div>
+        <div class="player-counter">
+            <span>Player Clicks:</span> <span id="playerClickCount">0</span>
+        </div>
+    </div>
+
+    <audio id="clickSound" src="sounds/click-sound.mp3"></audio>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.0.0/twemoji.min.js"></script>
+    <script src="script.js" defer></script>
+    <script src="cookie.js" defer></script>
+</body>
+</html>
+
