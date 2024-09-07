@@ -20,6 +20,18 @@ Download the latest version of the template from the [Releases](https://github.c
 
 Once you've downloaded and extracted the ZIP file, open the project in your preferred code editor.
 
+## Screenshots
+
+
+<div style="width: 100%; max-width: 600px; margin: auto;">
+  <img src="./main.PNG" alt="Main Page Screenshot" style="width: 100%; height: auto; display: block;">
+</div>
+
+<div style="width: 100%; max-width: 600px; margin: auto;">
+  <img src="./preview.PNG" alt="About Me Page Screenshot" style="width: 100%; height: auto; display: block;">
+</div>
+
+
 ### 3. Customize the Game
 
 - **HTML (`index.html`)**: Modify the structure of the game, such as adding more buttons or changing the layout.
@@ -49,11 +61,23 @@ This template can be used to create a variety of clicker games, such as:
 - **Cookie Clicker**: Inspired by the classic cookie-clicking game.
 - **Cat Pop**: A simple yet addictive clicker game that influenced this template.
   
-## Contributions
+## Contributing
 
-Feel free to contribute to this project! Fork the repository and submit a pull request with your enhancements or bug fixes.
+Contributions are welcome! If you have suggestions, improvements, or bug fixes, please submit a pull request or open an issue.
+
+- **Fork the Repository**: Create a personal copy of the repository on GitHub.
+- **Make Changes**: Implement your changes and test them locally.
+- **Submit a Pull Request**: Describe your changes and submit a pull request for review.
+
+Feel free to use, modify, and build upon this project. If you make any improvements or modifications, please give credit to the original creator.
+
 
 ## License
 
-This project is licensed under the MIT License, meaning it's free to use, modify, and distribute. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by Awiones
+
 
