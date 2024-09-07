@@ -4,7 +4,7 @@ const clickButton = document.getElementById('clickButton');
 const clickEffect = document.getElementById('clickEffect');
 const leaderboardList = document.getElementById('leaderboardList');
 const playerClickCountElem = document.getElementById('playerClickCount');
-const clickSound = document.getElementById('clickSound');
+const clickSound = document.getElementById('clickSound'); // Ensure you have an audio element with this ID
 const leaderboardEntries = {}; 
 
 const CLICK_LIMIT = 10; // Maximum allowed clicks in the interval
@@ -13,6 +13,7 @@ const CLICK_INTERVAL = 1000; // Time interval for click limit check in milliseco
 let clickTimestamps = [];
 let banned = false;
 
+// Function to show the click effect and play sound
 function showClickEffect(e) {
     // Update click count
     clickCount++;
@@ -41,6 +42,14 @@ function showClickEffect(e) {
         clickEffect.style.opacity = 0;
         clickEffect.style.transform = 'translate(-50%, -50%) scale(1)';
     }, 500);
+
+    // Play the click sound
+    if (clickSound) {
+        clickSound.currentTime = 0; // Rewind to start
+        clickSound.play().catch(error => {
+            console.error("Failed to play the sound:", error);
+        });
+    }
 }
 
 // Function to set a cookie
