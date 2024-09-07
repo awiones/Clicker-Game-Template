@@ -14,7 +14,7 @@ Welcome to the Clicker Game Template! This project is a free-to-use template for
 
 ### 1. Download the Latest Release
 
-Download the latest version of the template from the [Releases](https://github.com/yourusername/clicker-game-template/releases) page on GitHub. No need for Git or any other tools—just download the ZIP file and extract it.
+Download the latest version of the template from the [Releases](https://github.com/awiones/Clicker-Game-Template/releases) page on GitHub. No need for Git or any other tools—just download the ZIP file and extract it.
 
 ### 2. Open the Project
 
