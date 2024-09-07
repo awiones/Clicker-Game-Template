@@ -43,7 +43,12 @@ This template can be used to create a variety of clicker games, such as:
 - **Cookie Clicker Clone:** Replace the button with a cookie image and tally the total number of cookies baked.
 - **Cat Pop:** Replace the button with a cat image and count how many times the cat pops up.
 - **Custom Clicker Game:** Use your own graphics and theme to create a completely unique clicker game!
+  
+## Acknowledgments
 
+- **Cookie Clicker**: Inspired by the classic cookie-clicking game.
+- **Cat Pop**: A simple yet addictive clicker game that influenced this template.
+  
 ## Contributions
 
 Feel free to contribute to this project! Fork the repository and submit a pull request with your enhancements or bug fixes.
@@ -52,13 +57,3 @@ Feel free to contribute to this project! Fork the repository and submit a pull r
 
 This project is licensed under the MIT License, meaning it's free to use, modify, and distribute. See the [LICENSE](LICENSE) file for more details.
 
-## Acknowledgments
-
-- **Cookie Clicker**: Inspired by the classic cookie-clicking game.
-- **Cat Pop**: A simple yet addictive clicker game that influenced this template.
-
-## Support
-
-If you encounter any issues or have questions, feel free to open an issue on GitHub or contact the project maintainer at your.email@example.com.
-
-Happy Clicking! 🎮🚀
