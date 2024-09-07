@@ -14,26 +14,19 @@ let clickTimestamps = [];
 let banned = false;
 
 function showClickEffect(e) {
-    if (banned) {
-        alert('You are temporarily banned for clicking too rapidly.');
-        return;
-    }
-
-    const now = Date.now();
-    clickTimestamps = clickTimestamps.filter(timestamp => now - timestamp < CLICK_INTERVAL);
-    clickTimestamps.push(now);
-
-    if (clickTimestamps.length > CLICK_LIMIT) {
-        banned = true;
-        setTimeout(() => banned = false, BAN_TIME);
-        alert('You are temporarily banned for clicking too rapidly.');
-        return;
-    }
-
+    // Update click count
     clickCount++;
+    
+    // Update UI
+    playerClickCountElem.textContent = clickCount;
+    
+    // Save click count in cookie
     saveClickCount();
+
+    // Update leaderboard with user location
     updateLeaderboard(userLocation);
 
+    // Click effect animation
     const rect = clickButton.getBoundingClientRect();
     const x = e.clientX - rect.left - window.pageXOffset;
     const y = e.clientY - rect.top - window.pageYOffset;
@@ -48,9 +41,6 @@ function showClickEffect(e) {
         clickEffect.style.opacity = 0;
         clickEffect.style.transform = 'translate(-50%, -50%) scale(1)';
     }, 500);
-
-    // Play the click sound
-    clickSound.play();
 }
 
 // Function to set a cookie
@@ -83,6 +73,7 @@ function loadClickCount() {
     const savedCount = getCookie('clickCount');
     if (savedCount) {
         clickCount = parseInt(savedCount);
+        playerClickCountElem.textContent = clickCount; // Update the UI
         // Ensure the leaderboard reflects the saved count
         updateLeaderboard(userLocation);
     }
